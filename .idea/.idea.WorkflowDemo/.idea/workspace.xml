@@ -4,7 +4,24 @@
     <projectFile>WorkflowDemo/WorkflowDemo.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b859a743-daf1-4f62-ac9c-122338c518ae" name="Changes" comment="Three in one" />
+    <list default="true" id="b859a743-daf1-4f62-ac9c-122338c518ae" name="Changes" comment="Three in one">
+      <change afterPath="$PROJECT_DIR$/Common/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/OrderWorkflow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/Steps/BeginModeration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WorkflowDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WorkflowDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/BeginModeration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/ChangeModerationTimeout.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/Steps/ChangeModerationTimeout.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/CompleteModeration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/Steps/CompleteModeration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/InitModerationTimeout.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/Steps/InitModerationTimeout.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/ModerationTimeoutExpired.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/Steps/ModerationTimeoutExpired.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/RaiseModerationTimeoutEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/Steps/RaiseModerationTimeoutEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/SundToSupplier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/Steps/SundToSupplier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/ThreeInOneWorkflow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/TreeInOneData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/TreeInOneData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowDemo/WorkflowDemo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowDemo/WorkflowDemo.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +31,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c547a6ff9e274a6e837e41bb52fe2be229a00/24/1ba2398f/ExecutionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WorkflowDemo/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/mkiryushin/RiderProjects/WorkflowDemo/WorkflowDemo/Steps/ChangeModerationTimeout.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/mkiryushin/RiderProjects/WorkflowDemo/WorkflowDemo/Steps/BeginModeration.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c547a6ff9e274a6e837e41bb52fe2be229a00/8b/f660d1f9/IWorkflowController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/mkiryushin/RiderProjects/WorkflowDemo/WorkflowDemo/WorkflowData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/mkiryushin/RiderProjects/WorkflowDemo/WorkflowDemo/Steps/ModerationTimeoutExpired.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/mkiryushin/RiderProjects/WorkflowDemo/WorkflowDemo/HostKeeper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/mkiryushin/RiderProjects/WorkflowDemo/WorkflowDemo/ThreeInOneWorkflow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/mkiryushin/RiderProjects/WorkflowDemo/WorkflowDemo/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/BeginModeration.cs" />
+      <option value="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/ThreeInOneWorkflow.cs" />
+      <option value="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/Steps/CompleteModeration.cs" />
+      <option value="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/TreeInOneData.cs" />
+      <option value="$PROJECT_DIR$/WorkflowDemo/ThreeInOne/OrderWorkflow.cs" />
+      <option value="$PROJECT_DIR$/WorkflowDemo/Program.cs" />
+      <option value="$PROJECT_DIR$/WorkflowDemo/OrderWorkflow/OrderWorkflow.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1zVOcNU2f8thzq9efO3qgCuMXnZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,14 +51,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34981906" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.WorkflowDemo">
     <configuration name="WorkflowDemo" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -58,6 +76,19 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Common: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Common/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Common: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +100,9 @@
       <updated>1634229867633</updated>
       <workItem from="1634229878057" duration="3249000" />
       <workItem from="1635182012544" duration="14874000" />
-      <workItem from="1635927748708" duration="1926000" />
+      <workItem from="1635927748708" duration="3540000" />
+      <workItem from="1635945944475" duration="9115000" />
+      <workItem from="1636312067786" duration="6680000" />
     </task>
     <task id="LOCAL-00001" summary="Three in one">
       <created>1635928391461</created>
@@ -85,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635931173816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Three in one">
+      <created>1635931490332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635931490332</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,10 +144,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Three in one" />
-    <option name="LAST_COMMIT_MESSAGE" value="Three in one" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
